@@ -17,7 +17,10 @@ function App() {
   return (
     <AuthProvider> {/* Wrap with AuthProvider */}
       <CartProvider>
-        <Router>
+        {/* Set the basename for routing. process.env.PUBLIC_URL is derived from
+            the "homepage" field in your package.json during the build process.
+            For "https://miio93.github.io/ecommerce-sample/", PUBLIC_URL will be "/ecommerce-sample". */}
+        <Router basename={process.env.PUBLIC_URL}>
           <Layout>
             <Routes>
               <Route path="/" element={<HomePage />} />
