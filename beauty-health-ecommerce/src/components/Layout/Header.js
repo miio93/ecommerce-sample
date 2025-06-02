@@ -3,7 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Navbar, Nav, Container, Badge, NavDropdown } from 'react-bootstrap';
 import { useCart } from '../../context/CartContext';
 import { useAuth } from '../../context/AuthContext';
-import { ReactComponent as FlowerIcon } from '../../assets/FlowerIcon.svg'; // Adjust path as needed
+import { ReactComponent as FlowerIcon } from '../../assets/FlowerIcon.svg';
+import { ReactComponent as GithubIcon } from '../../assets/GithubIcon.svg';
 
 const Header = () => {
   const { getItemCount } = useCart(); // Get item count from cart context
@@ -48,6 +49,9 @@ const Header = () => {
               {getItemCount() > 0 && (
                 <Badge pill bg="danger" style={{ marginLeft: '5px' }}>{getItemCount()}</Badge>
               )}
+            </Nav.Link>
+            <Nav.Link as={Link} to="https://miio93.github.io/jose-villegas-portfolio-site/">
+              <GithubIcon style={{ width: '30px', height: '30px', fill: 'currentColor', verticalAlign: 'middle' }} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
