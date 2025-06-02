@@ -1,0 +1,82 @@
+[
+  {
+    "id": "prod1",
+    "name": "Organic Face Serum",
+    "description": "A rejuvenating serum packed with natural antioxidants to brighten and hydrate your skin.",
+    "price": 29.99,
+    "category": "Skincare",
+    "imageUrl": "https://picsum.photos/id/1080/300/300"
+  },
+  {
+    "id": "prod2",
+    "name": "Natural Lavender Soap",
+    "description": "Handmade soap with calming lavender essential oil, perfect for a relaxing bath.",
+    "price": 8.50,
+    "category": "Bath & Body",
+    "imageUrl": "https://picsum.photos/id/1011/300/300"
+  },
+  {
+    "id": "prod3",
+    "name": "Vitamin C Brightening Cream",
+    "description": "Daily moisturizer with Vitamin C to reduce dark spots and even out skin tone.",
+    "price": 22.00,
+    "category": "Skincare",
+    "imageUrl": "https://picsum.photos/id/326/300/300"
+  },
+  {
+    "id": "prod4",
+    "name": "Herbal Hair Growth Oil",
+    "description": "A blend of natural oils to nourish the scalp and promote healthy hair growth.",
+    "price": 18.75,
+    "category": "Hair Care",
+    "imageUrl": "https://picsum.photos/id/169/300/300"
+  },
+  {
+    "id": "prod5",
+    "name": "Aromatherapy Essential Oil Set",
+    "description": "Set of 6 popular essential oils for diffusion, massage, or DIY beauty recipes.",
+    "price": 35.00,
+    "category": "Wellness",
+    "imageUrl": "https://picsum.photos/id/129/300/300"
+  },
+  {
+    "id": "prod6",
+    "name": "Eco-Friendly Bamboo Toothbrush Set",
+    "description": "Set of 4 biodegradable bamboo toothbrushes with charcoal bristles.",
+    "price": 12.99,
+    "category": "Oral Care",
+    "imageUrl": "https://picsum.photos/id/26/300/300"
+  },
+  {
+    "id": "prod7",
+    "name": "Rose Water Facial Toner",
+    "description": "Hydrating and soothing facial toner made with pure rose water.",
+    "price": 15.25,
+    "category": "Skincare",
+    "imageUrl": "https://picsum.photos/id/312/300/300"
+  },
+  {
+    "id": "prod8",
+    "name": "Shea Butter Body Lotion",
+    "description": "Rich and creamy body lotion with shea butter for deep moisturization.",
+    "price": 19.99,
+    "category": "Bath & Body",
+    "imageUrl": "https://picsum.photos/id/367/300/300"
+  },
+  {
+    "id": "prod9",
+    "name": "Refreshing Foot Cream",
+    "description": "Refreshing foot cream with peppermint oil to soothe tired feet.",
+    "price": 14.00,
+    "category": "Wellness",
+    "imageUrl": "https://picsum.photos/id/435/300/300"
+  },
+  {
+    "id": "prod10",
+    "name": "Natural Deodorant Stick",
+    "description": "Aluminum-free natural deodorant stick with a fresh, clean scent.",
+    "price": 10.50,
+    "category": "Bath & Body",
+    "imageUrl": "https://picsum.photos/id/355/300/300"
+  }
+]

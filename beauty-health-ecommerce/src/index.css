@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF; /* White background */
+    color: var(--text-color); /* Ensure default text color is applied */
+
+}
+
+/* Define main colors as CSS variables for easy reuse */
+:root {
+  --cream-color: #FAF0E6; /* Linen */
+  --main-color: #E9ECEF; /* PowderBlue */
+  --text-color: #333;
+  --header-footer-bg: var(--cream-color);
+  --header-footer-text: #587077; /* A darker shade for contrast on cream */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Bolder headings by default with Poppins */
+}
+
+.btn-modern-gray {
+  background-color: #E9ECEF;
+  border: 1px solid #E9ECEF; /* Explicitly set border */
+  color: #212529; /* Dark text for contrast */
+  font-weight: 500; /* Consistent font weight */
+  padding: 0.5rem 1rem; /* Consistent padding */
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none !important; /* Ensure no underline if used as Link */
+}
+
+.btn-modern-gray:hover,
+.btn-modern-gray:focus { /* Added focus for accessibility and consistency */
+  background-color: #CED4DA; /* Darker gray for hover/focus */
+  border-color: #C8CFD5; /* Slightly darker border for hover/focus */
+  color: #212529;
+  box-shadow: 0 0 0 0.2rem rgba(206, 212, 218, 0.5); /* Optional: Bootstrap-like focus ring */
+}
